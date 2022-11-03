@@ -1,0 +1,19 @@
+footer {
+  margin-block-start: 4rem;
+  background: rgb(44, 44, 44);
+}
+.footer-content {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.icons img {
+  width: 40px;
+}

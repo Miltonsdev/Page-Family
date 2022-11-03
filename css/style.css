@@ -1,0 +1,45 @@
+@import "../css/slider.css";
+@import "../css/family.css";
+@import "../css/friends.css";
+@import "../css/contact.css";
+@import "../css/footer.css";
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-inline-size: 1240px;
+  margin: auto;
+}
+h3 {
+  color: #5be885;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-inline: 1rem;
+}
+.header-content p a {
+  text-decoration: none;
+  color: #000;
+}
+.header-content nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.header-content ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+.header-content ul a:hover {
+  color: #6d6b6b;
+}

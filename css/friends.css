@@ -1,0 +1,56 @@
+.friends-card {
+  /* border: 1px solid red; */
+  background: #2c2c2c;
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+.friends-card > p {
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+.friends-card h2 {
+  margin-block: 1rem;
+}
+.card-friends h3 {
+  color: white;
+}
+.article-container {
+  margin-block-start: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  justify-content: center;
+  gap: 1.5rem;
+}
+.card-friends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(to left top, #11f29b, #88a5e93d);
+  width: 380px;
+  height: 200px;
+  border-radius: 0 40px 0 40px;
+}
+/*haciendo el ahref*/
+.friends-card a {
+  /* border: 1px solid red; */
+  width: 120px;
+  border-radius: 15px;
+  background: #11f29b;
+  padding: 0.7rem;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+}
+.friends-card a:hover {
+  background: rgb(102, 162, 246);
+  color: white;
+}

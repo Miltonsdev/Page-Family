@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miltondev 💻</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <p><a href="/">MILTONDEV</a></p>
+          <nav>
+            <ul>
+              <li><a href="/">PRESENTATION</a></li>
+              <li><a href="#family">FAMILY</a></li>
+              <li><a href="#friends">FRIENDS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- declaramos para el slider -->
+
+    <div class="wrapper">
+      <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="./image/img1.jpg" alt="" class="slider__img" />
+          </div>
+          <div class="slider__section">
+            <img src="./image/img2.jpg" alt="" class="slider__img" />
+          </div>
+          <div class="slider__section">
+            <img src="./image/img3.jpg" alt="" class="slider__img" />
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">></div>
+
+        <div class="slider__btn slider__btn--left" id="btn-left"><</div>
+      </div>
+    </div>
+    <main>
+      <div class="wrapper">
+        <div class="main-content">
+          <section class="section-content">
+            <h2 id="family">Family</h2>
+            <div class="family-card">
+              <div class="card-small">
+                <h3 style="font-size: 1.5rem">Es lo más hermoso de la vida</h3>
+                <p>
+                  La familia se define como grupo de personas, vinculadas
+                  generalmente por lazos de parentesco, ya sean de sangre o
+                  políticos, e independientemente de su grado, que hace vida en
+                  común, ocupando normalmente la totalidad de una vivienda.
+                </p>
+                <img
+                  class="familyCard-img"
+                  src="./image/familia.jpg"
+                  alt="Logo de Family"
+                />
+              </div>
+              <div class="article">
+                <article class="article-card">
+                  <img src="./image/face1.jpg" alt="imagen" class="card-img" />
+                  <h3>Milton</h3>
+                  <p>
+                    La figura paterna en la familia es sinónimo de seguridad,
+                    afecto, apoyo y sobre todo, de ejemplo en el crecimiento de
+                    los hijos.
+                  </p>
+                </article>
+                <article class="article-card">
+                  <img src="./image/face4.jpg" alt="imagen" class="card-img" />
+                  <h3>Alizon</h3>
+                  <p>
+                    La Madre es el pilar de una Familia y debe preocuparse por
+                    transmitir principios y valores a sus hijos mediante un
+                    diálogo constante, de respeto y amor.
+                  </p>
+                </article>
+                <article class="article-card">
+                  <img src="./image/face2.jpg" alt="imagen" class="card-img" />
+                  <h3>Mathias</h3>
+                  <p>
+                    Los hijos son el regalo más grande que la vida puede
+                    brindarnos y con ellos aprendemos realmente lo que es el
+                    amor verdadero.
+                  </p>
+                </article>
+                <article class="article-card">
+                  <img src="./image/face3.jpg" alt="imagen" class="card-img" />
+                  <h3>Thiago</h3>
+                  <p>
+                    El amor entre un hijo y sus progenitores es infinito, desde
+                    que un hijo nace para sus padres se convierte en el ser más
+                    perfecto que jamás haya existido.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section-content">
+            <div class="friends-card">
+              <h2 id="friends" style="color: rgba(8, 244, 98, 0.83)">
+                FRIENDS
+              </h2>
+              <p>
+                Un amigo es una persona con quien se mantiene una amistad. Una
+                amistad es una relación afectiva entre dos personas, construida
+                sobre la base de la reciprocidad y el trato asiduo. Valores
+                fundamentales en una amistad son la lealtad, el amor, la
+                solidaridad, la incondicionalidad, la sinceridad y el
+                compromiso.
+              </p>
+              <a href="#">See more</a>
+              <div class="article-container">
+                <article class="card-friends">
+                  <h3>⚽Rafael</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ipsa dolorem culpa, voluptatum ullam magni.
+                </article>
+
+                <article class="card-friends">
+                  <h3>📺Gino</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ipsa dolorem culpa, voluptatum ullam magni.
+                </article>
+
+                <article class="card-friends">
+                  <h3>📻Clever</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ipsa dolorem culpa, voluptatum ullam magni.
+                </article>
+
+                <article class="card-friends">
+                  <h3>📸Yoel</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ipsa dolorem culpa, voluptatum ullam magni.
+                </article>
+
+                <article class="card-friends">
+                  <h3>📰Carlos</h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  ipsa dolorem culpa, voluptatum ullam magni.
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section-content">
+            <h2 id="contact">CONTACT</h2>
+            <form action="#" class="form">
+              <!-- <h3>Contact us</h3> -->
+              <label for="#">
+                First name
+                <input type="text" required />
+              </label>
+              <label for="#">
+                Last name
+                <input type="text" required />
+              </label>
+              <label for="#">
+                Email
+                <input type="email" autocomplete="on" required />
+              </label>
+              <label for="#">
+                Country
+                <input type="text" />
+              </label>
+              <label for="#">
+                Phone
+                <input type="number" requiered maxlength="9" />
+              </label>
+              <label for="#"
+                >Gender <br /><input type="radio" name="gender" />Famale
+                <input type="radio" name="gender" />Male
+              </label>
+              <label for="#">Message </label>
+              <textarea name="message" cols="20" rows="10"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-content">
+          <p>Desarrollado por Milton Y. Saccsara Meza 2022 ©</p>
+          <div class="icons">
+            <img src="./image/twitter-white.png" alt="" />
+            <img src="./image/facebook-white1.png" alt="" />
+            <img src="./image/instagram-white.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>
